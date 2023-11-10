@@ -24,7 +24,7 @@ File enum GameState yang merepresentasikan berbagai kondisi atau status yang mun
 File enum Seed yang merepresentasikan isi sel atau petak dalam papan permainan Tic-Tac-Toe. Ada tiga kemungkinan isi: kosong (EMPTY), 'X' (CROSS), atau 'O' (NOUGHT).
 File enum State yang juga merepresentasikan berbagai kondisi atau status yang mungkin terjadi dalam permainan Tic-Tac-Toe. Kondisi-kondisi ini mirip dengan yang ada pada GameState.
 
-Class Cell.java
+# Class Cell.java
 package TicTacToe;
 import java.awt.Graphics;
 import java.awt.*;
@@ -76,7 +76,7 @@ Metode ini menggambar sel pada kanvas grafis (Graphics). Itu menggunakan Graphic
 •	Jika content adalah Seed.NOUGHT, maka lingkaran biru digambar.
 Koordinat dan ukuran dari garis atau lingkaran dihitung berdasarkan baris dan kolom sel pada papan permainan.
 
-Class Board.java
+# Class Board.java
 package TicTacToe;
 import java.awt.*;
 /**
@@ -173,7 +173,7 @@ Metode hasWon digunakan untuk mengecek apakah pemain dengan tanda (seed) tertent
 Metode paint(Graphics g) digunakan untuk menggambar papan permainan pada kanvas grafis. Ini termasuk menggambar garis-garis grid dan meminta setiap sel untuk menggambar dirinya sendiri dengan memanggil metode paint(g) dari objek Cell.
 
 
-Class GameMain.java
+# Class GameMain.java
 package TicTacToe;
 import java.awt.*;
 import java.awt.event.*;
